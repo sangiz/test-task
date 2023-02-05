@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{9fac08a1-693b-4bc0-9fbf-ceceec7eec5b}">
+		<property name="name">
+			<value>WalkableSurface</value>
+		</property>
+		<relationship name="folder">
+			<destination>{381c6c81-44c3-4b7a-b556-99cd760f97fb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{04aec1b2-268c-474e-869e-84f12b8dcc0f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{04aec1b2-268c-474e-869e-84f12b8dcc0f}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>11</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Grass</value>
+			<value>Leaves</value>
+			<value>DirtyGround</value>
+			<value>Sand</value>
+			<value>Gravel</value>
+			<value>WaterPuddle</value>
+			<value>WaterDeep</value>
+			<value>Snow</value>
+			<value>Blood</value>
+			<value>TileFloor</value>
+			<value>WoodFloor</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

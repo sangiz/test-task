@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{6bc52647-e9fd-40a8-b02b-cf746160d110}">
+		<property name="name">
+			<value>BulletImpactSurface</value>
+		</property>
+		<relationship name="folder">
+			<destination>{381c6c81-44c3-4b7a-b556-99cd760f97fb}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bafbffd0-e038-4b2e-b9d5-96e94e81ff3d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bafbffd0-e038-4b2e-b9d5-96e94e81ff3d}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Flesh</value>
+			<value>Concret</value>
+			<value>Wood</value>
+			<value>Metal</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
